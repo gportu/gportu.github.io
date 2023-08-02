@@ -1,0 +1,60 @@
+.Tablita{
+    width: 100%;
+    border: 1px solid black;
+    border-spacing: 0;
+}
+th, td{
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-spacing: 0;}
+
+
+div#encabezado{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+    
+    
+}
+div.selfie{
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: #012550
+
+}
+.rostro{
+    
+    height: 1024px;
+}
+
+div#titulo{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #012550;
+    color: aliceblue;
+    font-size:xx-large;
+}
+div#parr{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #012550;
+    color: aliceblue;
+    font-size: x-large;
+}
+div#enlaces{
+    grid-column: 2;
+    grid-row: 3;
+    background-color: #012550;
+    color: aliceblue
+
+}
+
+div.exp{
+    background-color: #E4EAF1;
+    margin: 0%;
+    
+}
